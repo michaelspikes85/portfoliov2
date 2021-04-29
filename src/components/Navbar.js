@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Navbar
+          Michael Spikes
         </a>
         <button
           className="navbar-toggler"
@@ -19,8 +19,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
-          {/* <FontAwesomeIcon className="fontawesomeicon" icon={faBars} /> */}
+          <FontAwesomeIcon className="fontawesomeicon" icon={faBars} />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
