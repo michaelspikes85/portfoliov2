@@ -135,3 +135,51 @@ navbar-nav > li > a {
     display: none;
   }
 }
+
+/* **********************ABOUT ME********************************* */
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-img {
+  width: 32rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+#about-me-heading {
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
+    1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  color: var(--primary-blue);
+  text-transform: uppercase;
+}
+
+#about-me-para {
+  color: var(--primary-orange);
+}
+
+@media (max-width: 993px) {
+  #profile-img {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 993px) {
+  #about-me-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 993px) {
+  #about-me-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+}
