@@ -18,104 +18,118 @@ import securityplus from "../images/securityplus-logo.png";
 const Technologies = () => {
   return (
     <div className="technologies">
-      <div className="container">
-        <h1 id="technologies-heading" className="mb-5">
-          Technology Skills
-        </h1>
-        <div className="row row-col-5 mb-3">
-          <div className="col">
-            <img src={html} className="technologies-logos" alt="html-logo..." />
-          </div>
-          <div className="col">
-            <img src={css} className="technologies-logos" alt="css-logo..." />
-          </div>
-          <div className="col">
-            <img src={js} className="technologies-logos" alt="js-logo..." />
-          </div>
-          <div className="col">
-            <img
-              src={reactjs}
-              className="technologies-logos"
-              alt="reactjs-logo..."
-            />
-          </div>
-          <div className="col">
-            <img
-              src={bootstrap}
-              className="technologies-logos"
-              alt="bootstrap-logo..."
-            />
-          </div>
+      <h1 id="technologies-heading" className="mb-5">
+        Technology Skills
+      </h1>
+      <div className="row row-col-5 mb-3">
+        <div className="col">
+          <img
+            src={html}
+            className="technologies-logos img-fluid"
+            alt="html-logo..."
+          />
         </div>
-        <div className="row row-col-5 mb-3">
-          <div className="col">
-            <img
-              src={mysql}
-              className="technologies-logos"
-              alt="mysql-logo..."
-            />
-          </div>
-          <div className="col">
-            <img
-              src={mongodb}
-              className="technologies-logos"
-              alt="mongodb-logo..."
-            />
-          </div>
-          <div className="col">
-            <img
-              src={handlebars}
-              className="technologies-logos"
-              alt="handlebars-logo..."
-            />
-          </div>
-          <div className="col">
-            <img
-              src={jquery}
-              className="technologies-logos"
-              alt="jquery-logo..."
-            />
-          </div>
-          <div className="col">
-            <img
-              src={nodejs}
-              className="technologies-logos"
-              alt="nodejs-logo..."
-            />
-          </div>
+        <div className="col">
+          <img
+            src={css}
+            className="technologies-logos img-fluid"
+            alt="css-logo..."
+          />
         </div>
-        <div className="row row-col-5 mb-3">
-          <div className="col">
-            <img src={json} className="technologies-logos" alt="json-logo..." />
-          </div>
-          <div className="col">
-            <img
-              src={github}
-              className="technologies-logos"
-              alt="github-logo..."
-            />
-          </div>
-          <div className="col">
-            <img
-              src={heroku}
-              className="technologies-logos"
-              alt="heroku-logo..."
-            />
-          </div>
-          <div className="col">
-            <img
-              src={vuejs}
-              className="technologies-logos"
-              alt="vuejs-logo..."
-            />
-          </div>
-          <div className="col">
-            <img
-              src={securityplus}
-              className="technologies-logos"
-              alt="securityplus-logo..."
-            />
-          </div>
+        <div className="col">
+          <img
+            src={js}
+            className="technologies-logos img-fluid"
+            alt="js-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={reactjs}
+            className="technologies-logos img-fluid"
+            alt="reactjs-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={bootstrap}
+            className="technologies-logos img-fluid"
+            alt="bootstrap-logo..."
+          />
+        </div>
+      </div>
+      <div className="row row-col-5 mb-3">
+        <div className="col">
+          <img
+            src={mysql}
+            className="technologies-logos img-fluid"
+            alt="mysql-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={mongodb}
+            className="technologies-logos img-fluid"
+            alt="mongodb-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={handlebars}
+            className="technologies-logos img-fluid"
+            alt="handlebars-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={jquery}
+            className="technologies-logos img-fluid"
+            alt="jquery-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={nodejs}
+            className="technologies-logos img-fluid"
+            alt="nodejs-logo..."
+          />
+        </div>
+      </div>
+      <div className="row row-col-5 mb-3">
+        <div className="col">
+          <img
+            src={json}
+            className="technologies-logos img-fluid"
+            alt="json-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={github}
+            className="technologies-logos img-fluid"
+            alt="github-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={heroku}
+            className="technologies-logos img-fluid"
+            alt="heroku-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={vuejs}
+            className="technologies-logos img-fluid"
+            alt="vuejs-logo..."
+          />
+        </div>
+        <div className="col">
+          <img
+            src={securityplus}
+            className="technologies-logos img-fluid"
+            alt="securityplus-logo..."
+          />
         </div>
       </div>
     </div>
