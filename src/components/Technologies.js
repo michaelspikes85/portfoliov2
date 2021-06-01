@@ -1,19 +1,19 @@
 import React from "react";
-import html from "../images/html-logo.png";
-import css from "../images/css-logo.png";
-import js from "../images/JS-logo.png";
-import bootstrap from "../images/bootstrap-logo.png";
-import reactjs from "../images/reactjs-logo.png";
-import mysql from "../images/mysql-logo.png";
-import mongodb from "../images/mongodb-logo.png";
-import handlebars from "../images/handlebars-logo.png";
-import jquery from "../images/jquery-logo.png";
-import nodejs from "../images/nodejs-logo.png";
-import json from "../images/json-logo.png";
-import github from "../images/github-logo.png";
-import heroku from "../images/heroku-logo.png";
-import vuejs from "../images/vuejs-logo.png";
-import securityplus from "../images/securityplus-logo.png";
+import html from "../images/technologies/html-logo.png";
+import css from "../images/technologies/css-logo.png";
+import js from "../images/technologies/JS-logo.png";
+import bootstrap from "../images/technologies/bootstrap-logo.png";
+import reactjs from "../images/technologies/reactjs-logo.png";
+import mysql from "../images/technologies/mysql-logo.png";
+import mongodb from "../images/technologies/mongodb-logo.png";
+import handlebars from "../images/technologies/handlebars-logo.png";
+import jquery from "../images/technologies/jquery-logo.png";
+import nodejs from "../images/technologies/nodejs-logo.png";
+import json from "../images/technologies/json-logo.png";
+import github from "../images/technologies/github-logo.png";
+import heroku from "../images/technologies/heroku-logo.png";
+import vuejs from "../images/technologies/vuejs-logo.png";
+import securityplus from "../images/technologies/securityplus-logo.png";
 
 const Technologies = () => {
   return (

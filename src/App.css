@@ -211,3 +211,19 @@ navbar-nav > li > a {
     flex: 1 1 10rem;
   }
 }
+
+/* **********************EXPERIENCE********************************* */
+
+#section-title {
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
+    1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  color: var(--primary-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.experience-para {
+  color: var(--primary-orange);
+}

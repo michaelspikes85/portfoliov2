@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Technologies from "./components/Technologies";
+import Experience from "./components/Experience";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <div className="container">
         <AboutMe />
+        <Experience />
         <Technologies />
       </div>
     </>
