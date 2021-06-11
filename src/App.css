@@ -8,6 +8,7 @@
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-brown: #b36d00;
   --primary-hover: #0263b3;
+  --primary-black: #000000;
 }
 
 * {
@@ -147,7 +148,7 @@ navbar-nav > li > a {
   width: 32rem;
   border-radius: 50%;
   padding: 0.3rem;
-  border: 1px solid var(--primary-orange);
+  border: 2px solid var(--primary-orange);
 }
 
 #about-me-heading {
@@ -184,6 +185,22 @@ navbar-nav > li > a {
   }
 }
 
+/* **********************EXPERIENCE********************************* */
+
+#section-title {
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
+    1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  color: var(--primary-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.experience-para {
+  color: var(--primary-orange);
+}
+
 /* **********************TECHNOLOGIES********************************* */
 
 #technologies-heading {
@@ -212,18 +229,79 @@ navbar-nav > li > a {
   }
 }
 
-/* **********************EXPERIENCE********************************* */
-
-#section-title {
+/* **********************PORTFOLIO********************************* */
+.portfolio-wrapper {
   text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
     1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   color: var(--primary-blue);
   display: flex;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase;
 }
 
-.experience-para {
+.portfolio-image {
+  width: 15rem;
+  border: 2px solid var(--primary-orange);
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+/* **********************OVERFLOW********************************* */
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 2px solid var(--primary-orange);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
   color: var(--primary-orange);
+  font-size: 1.5rem;
+}
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* *************************OVERFLOW BOX****************************** */
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover {
+  color: var(--primary-orange);
+}
+
+/* *************************MEDIA FOR OVERFLOW BOX****************************** */
+
+@media (max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100% !important;
+  }
 }
